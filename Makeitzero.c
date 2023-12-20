@@ -9,7 +9,7 @@ int sum(int N) {
   
     return (sum(N - 3) || sum(N - 4));
 }
-make zero using 3 and 
+
 int main(void) {
     int T, N;
     scanf("%d", &T);
